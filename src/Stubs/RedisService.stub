@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Services;
+
+use BaseService::class;
+// events_import_here
+// pramters_import_here
+
+class ServiceName extends BaseService
+{
+// functions_here
+}

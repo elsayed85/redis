@@ -1,0 +1,4 @@
+public function publish{EventName}(parmeter_class_and_variable): void
+{
+    $this->publish(new {EventName}(pramters));
+}

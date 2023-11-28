@@ -1,0 +1,10 @@
+<?php
+
+namespace Elsayed85\LmsRedis\Services\{ServiceFullName}\Enum;
+
+enum {ServiceName}Event: string
+{
+    case CREATED = '{ServiceNameLower}:created';
+    case UPDATED = '{ServiceNameLower}:updated';
+    case DELETED = '{ServiceNameLower}:deleted';
+}

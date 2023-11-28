@@ -1,0 +1,16 @@
+<?php
+
+namespace Elsayed85\LmsRedis\Services\{ServiceFullName}\Event;
+
+use Elsayed85\LmsRedis\Services\Event;
+use Elsayed85\LmsRedis\Services\{ServiceFullName}\DTO\{ServiceName}Data;
+use Elsayed85\LmsRedis\Services\{ServiceFullName}\Enum\{ServiceName}Event;
+
+class {ServiceName}CreatedEvent extends Event
+{
+    public {ServiceName}Event $type = {ServiceName}Event::CREATED;
+
+    public function __construct(public readonly {ServiceName}Data $data)
+    {
+    }
+}
